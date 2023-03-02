@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fa-facebook {
+    color: orange;
+    font-size: 35px;
+    display: block;
+    top: 25%;
+    left: 25%;
+}
+
+.fa-facebook:hover {
+    color: lawngreen;
+}
+
+.fa-instagram {
+    font-size: 80px;
+    color: #05A;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.fa-instagram:hover {
+    color: rgb(33, 145, 173);
+}
+
+.fa-facebook:hover {
+    color: lawngreen;
+}

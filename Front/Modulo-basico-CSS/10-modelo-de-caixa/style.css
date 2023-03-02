@@ -1,0 +1,8 @@
+p {
+    margin: 20px;
+    padding: 20px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}

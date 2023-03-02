@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    max-width: 400px;
+    border: 1px solid #395eda;
+}
+
+.item {
+    background-color: #ad9134;
+    font-size: 18px;
+    margin: 5px;
+    text-align: center;
+}
+
+.justify-content .item1,
+.justify-content .item3 {
+    width: 80px;
+}

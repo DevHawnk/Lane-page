@@ -1,0 +1,10 @@
+.cabeça-conteiner{
+  display: flex;
+  padding: 30px; 
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+

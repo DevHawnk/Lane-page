@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 1500px;
+    padding-top: 67px;
+}
+
+header {
+    font-size: 19px;
+    position: fixed;
+    background: lightcyan;
+    top: 0;
+}

@@ -1,0 +1,38 @@
+.flex-0 {
+    /* abrevindaod flex-grow, flex-shrink, flex-basis */
+    flex: 0;
+}
+
+.flex-1 {
+    /* abrevindaod flex-grow, flex-shrink, flex-basis */
+    flex: 1;
+}
+
+.flex-2 {
+    /* abrevindaod flex-grow, flex-shrink, flex-basis */
+    flex: 3 2 1;
+}
+
+.flex {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.warp {
+    flex-wrap: wrap;
+}
+
+
+/* so usar o order se a semantica no html não sor relevante ou importante  */
+
+.item.item3 {
+    order: 0;
+}
+
+.item.item2 {
+    order: 0;
+}
+
+/* ---------------------------------------------------------- */
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Pokédex</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+  <script src="./js/jquery-3.5.1.min.js"></script>
+  <script src="./js/app.js"></script>
+</head>
+
+<body>
+
+  <div id="pokedex-container">
+    <img id="pokemon-logo" src="" alt="pokemon-logo" />
+    <h1>
+      <DIV ALIGN=center>Pokomon</DIV>
+    </h1>
+    <div id="pokedex-navigation">
+
+      <!-- Agrega los elementos para la navegación -->
+      <DIV ALIGN=center><input type="text" id="namePk" /><button id="buscar" role="button">Buscar</button> </DIV> <br>
+      <DIV ALIGN=center><button id="anterior" role="button">Anterior</button> <button id="siguiente"
+          role="button">Siguiente</button></DIV>
+    </div>
+
+    <div id="pokemon-data">
+
+      <!-- Aquí debes agregar la información del pokemon -->
+      <DIV ALIGN=center><strong>
+          <p class="pokemonName"></p>
+        </strong></DIV>
+      <DIV ALIGN=center> <img class="pokemonImage"> </DIV>
+
+      <body>
+        <div id="attack"></div>
+        <div id="defense"></div>
+        <div id="special"></div>
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            fetch('https://pokeapi.co/api/v2/pokemon/1')
+              .then(response => response.json())
+              .then(data => {
+                document.getElementById("attack").innerHTML = data.stats[4].base_stat;
+                document.getElementById("defense").innerHTML = data.stats[3].base_stat;
+                document.getElementById("special").innerHTML = data.stats[2].base_stat;
+              });
+          });
+        </script>
+      </body>
+
+
+    </div>
+
+
+
+  </div>
+
+</body>
+
+</html>

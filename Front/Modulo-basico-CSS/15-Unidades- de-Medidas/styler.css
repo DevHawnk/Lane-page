@@ -1,0 +1,25 @@
+html {
+    background-color: rgb(83, 83, 83);
+    font-size: 32px;
+}
+
+
+/* 1 em = a 16 pixels*/
+
+body {
+    background-color: #031083;
+    width: 50%;
+    font-size: 1rem;
+}
+
+.pai {
+    background-color: #ea80fc;
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.filha {
+    background-color: #034583;
+    width: 50%;
+    font-size: 0.5rem;
+}

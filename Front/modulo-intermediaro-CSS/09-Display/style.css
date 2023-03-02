@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 18px;
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+.em-bloco li {
+    background: lightsalmon;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.em-linha li {
+    display: inline;
+    background: lightblue;
+}
+
+.em-linha-e-bloco li {
+    display: inline-block;
+    background: lightseagreen;
+    width: 100px;
+    height: 100px;
+}
+
+.esconder {
+    display: none;
+    background: lightseagreen;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,35 @@
+p {
+    color: coral;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bg {
+    background-color: lightgrey;
+    background-image: url('./image/DD.png');
+}
+
+.bg-image {
+    width: 513px;
+    height: 340px;
+}
+
+.br-repeat {
+    background-repeat: no-repeat;
+    height: 840px;
+}
+
+.bg-size-cover {
+    background-size: cover;
+    height: 540px;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+    height: 540px;
+}
+
+.bg-position {
+    background: #000 url('./image/DD.png') no-repeat right top;
+    height: 540px;
+}

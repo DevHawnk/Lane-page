@@ -1,0 +1,13 @@
+.led {
+    background-color: aquamarine;
+    display: flexbox;
+}
+
+.led span {
+    font-size: 13px;
+    color: orange;
+}
+
+p {
+    background-color: aquamarine;
+}

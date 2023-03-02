@@ -1,0 +1,59 @@
+    h1 {
+        color: lightgreen;
+    }
+    
+    .Meruem {
+        font-size: 16px;
+        color: darkblue;
+    }
+    
+    #menu {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: rebeccapurple;
+    }
+    /* * {
+    padding: 0;
+    font-size: 12px;
+} */
+    
+    .titulo.vermelho {
+        color: #ff0000;
+        font-size: 18px;
+        font-family: 'Cutive Mono', monospace;
+        font-family: 'Inconsolata', monospace;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'VT323', monospace;
+    }
+    
+    .titulo.azul {
+        color: #0000ff;
+    }
+    /* p,span {
+    color: lime;
+    font-size: 19px;
+    font-family: 'Oswald', sans-serif;
+} */
+    
+    .sobre .texto {
+        color: bisque;
+    }
+    
+    div>p {
+        font-family: 'VT323', monospace;
+        font-size: 20px;
+        color: cadetblue;
+    }
+    
+    div+p {
+        font-family: 'VT323', monospace;
+        font-style: italic;
+    }
+    
+    a[target=_blank] {
+        color: red;
+    }
+    
+    a[href="google.com"] {
+        color: gray;
+    }
