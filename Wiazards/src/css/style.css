@@ -188,13 +188,11 @@
     
     .services .service:nth-child(1) {
         border-radius: 0px;
-        background: linear-gradient(45deg, #6f23cd, #5e1ead);
-    }
+        background: white
     
     .services .service:nth-child(2) {
         border-radius: 0px;
-        background: linear-gradient(45deg, #6f23cd, #5e1ead);
-    }
+        background:  white
     
     @media(max-width: 425px) {
         .services {
